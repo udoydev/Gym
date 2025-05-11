@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Virtual Environments
+gym_env/
+venv/
+ENV/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Static files (optional, if you want to ignore collected static files)
+staticfiles/
+
+# Others
+*.bak
+*.swp
+*.swo
